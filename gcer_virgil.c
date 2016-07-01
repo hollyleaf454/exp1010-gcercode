@@ -112,17 +112,13 @@ int main()
   
   	mav(lmotor, -525);
   	mav(rmotor, -400);
-  	msleep(1000);
+  	msleep(500);
 	
   	set_servo_position(1, 1645);
   	msleep(100);
   
-  	mav(lmotor, -500);
-	mav(rmotor, 500);//turn left and check the solar array
-  	msleep(200);
-  
   	mav(lmotor, 300);//push things
-  	mav(rmotor, 315);
+  	mav(rmotor, 305);
   	msleep(13000);
   
   	mav(lmotor, -100);
