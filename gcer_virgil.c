@@ -36,8 +36,8 @@ void lineFollow()
 
 int main()
 {
-    //wait_for_light(1);
-    //shut_down_in(115);
+    wait_for_light(1);
+    shut_down_in(115);
     enable_servos();
     //1) Grab Cubes
     /*set_servo_position(end, 300); //open grabbing part
@@ -89,7 +89,7 @@ int main()
 	mav(rmotor, 1000); // drive up the ramp a little bit
   	msleep(2200);
   
-  	set_servo_position(1, 1640);
+  	set_servo_position(1, 1620);
     //6) Drive Up Ramp until Hits Edge
     printf("Up & up\n");
   	/*set_servo_position(front, 500); //raise front part a little bit (for some reason???)
