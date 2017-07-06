@@ -1,8 +1,4 @@
 # exp1010-gcercode
-botball 2016 exp1010 code
+botball 2017 exp1010 code
 
-if you're looking at this you shouldn't be haha jk
-
-TODO: comment functions more cleanly;
-delete old code;
-generally beautify
+i'm fresh
